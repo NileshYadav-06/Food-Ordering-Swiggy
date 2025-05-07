@@ -1,0 +1,76 @@
+/* .shimmerCon {
+    border: 1px solid yellow;
+    padding: 20px 5px;
+    width: 84%;
+    margin: auto;
+
+}
+.shimmerCard{
+    margin: 7px;
+     width: 270px;
+     height: 350px;
+     background-color: #cccccccb;
+     border-radius: 10px;
+    
+     padding: 5px;
+     border: 1px solid #cccccc;
+     transition: all .1s ease;
+ }
+ .searchShimmer{
+    padding: 10px 180px;
+ }
+ .searchShimmer> .btn{
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: #cccccccb;
+    height: 32px;
+    width: 170px;
+    
+ }
+
+ */
+
+ .resContainer{
+    padding: 20px 5px;
+    width: 84%;
+    margin: auto;
+}
+.filter{
+    padding: 12px 176px;
+}
+.search{
+    width: 259px;
+}
+
+.filterBtn{
+    font-weight: 500;
+    width: 200px;
+}
+
+@media(max-width:1050px){
+    .resContainer{
+        padding: 20px 0px;
+        width: 95%;
+        margin: auto;
+    }
+}
+@media(max-width:850px){
+    .filter{
+        padding: 12px 50px;
+    }
+}
+@media(max-width:620px){
+    .filter{
+        flex-direction: column;
+    }
+    .filterBtn {
+        padding: 5px;
+        width: 180px;
+    }
+}
+@media(max-width:350px){
+    .filter{
+        padding: 5px 10px;
+    }
+}
+
