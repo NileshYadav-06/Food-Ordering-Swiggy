@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cbb520c8.css",
+    "main.js": "/static/js/main.46ea2476.js",
+    "static/media/Chef PNG - Free Download-Photoroom.png": "/static/media/Chef PNG - Free Download-Photoroom.6e8fd3d8ac69f81a3d8d.png",
+    "static/media/Chinese Chow Mein Noodles Plate With Vegetables HD PNG - Image ID 489178 _ TopPNG-Photoroom.png": "/static/media/Chinese Chow Mein Noodles Plate With Vegetables HD PNG - Image ID 489178 _ TopPNG-Photoroom.68fef7873da4ed5d74c9.png",
+    "static/media/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.avif": "/static/media/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.8ef83442f6d56c99d853.avif",
+    "static/media/error1.jpg": "/static/media/error1.ce1f9b0993f0cece09c8.jpg",
+    "index.html": "/index.html",
+    "main.cbb520c8.css.map": "/static/css/main.cbb520c8.css.map",
+    "main.46ea2476.js.map": "/static/js/main.46ea2476.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbb520c8.css",
+    "static/js/main.46ea2476.js"
+  ]
+}
