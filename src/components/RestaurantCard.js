@@ -28,7 +28,7 @@ const RestaurantCard = (props) => {
 
         <ul className="font-medium list-disc flex  gap-6">
             <h4 className="my-1 text-white w-14 pl-1 py-[2px] rounded-lg   whitespace-nowrap bg-green-700 overflow-hidden text-ellipsis"><FontAwesomeIcon icon={faStar} style={{ color: "#ffffff", }} /> {avgRating} </h4>
-            <li><h4 className="my-1 whitespace-nowrap overflow-hidden text-ellipsis">{sla.deliveryTime}  min</h4></li>
+            <li><h4 className="my-1 whitespace-nowrap overflow-hidden text-ellipsis">{sla.deliveryTime}  mins</h4></li>
             <li><h4 className="my-1 whitespace-wrap overflow-hidden text-ellipsis">{costForTwo} </h4></li>
         </ul>
 

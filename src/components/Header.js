@@ -47,26 +47,20 @@ const Header = () => {
           <li className="px-2">
             <Link to={"/cart"}>Cart({cartItems.length})</Link>
           </li>
-          {/* <li className="px-2">
+          <li className="px-2">
             <Link to={"/login"}>
               <button className="loginBtn" onClick={BtnTxt}>
                 {btnText} <span className="online"> 🟢 </span>
               </button>
             </Link>
-          </li> */}
-
-          <li className="px-2">
-            <button className="loginBtn" onClick={BtnTxt}>
-              {btnText} <span className="online"> 🟢 </span>
-            </button>
           </li>
 
-          {/* {name} */}
         </ul>
 
         <div
           className="headerBtn"
           style={{ gap: gap }}
+          
           onClick={() => navButton()}
         >
           <div className="line line1" style={{ rotate: line1 }}></div>

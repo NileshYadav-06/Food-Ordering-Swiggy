@@ -60,10 +60,10 @@ export const appRouter = createBrowserRouter([
         element: <Contact />,
       },
 
-      // {
-      //   path: "/login",
-      //   element: <Login />,
-      // },
+      {
+        path: "/login",
+        element: <Login />,
+      },
       {
         path: "/restaurant/:resId",
         element: <RestaurantMenu />,

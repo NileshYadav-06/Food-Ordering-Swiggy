@@ -28,12 +28,12 @@ const Categories = () => {
   };
 
   const next = () => {
-    if (elements.length - 7 == slide) return false;
+    if (elements.length - 7 === slide) return false;
     setSlide(slide + 1);
   };
 
   const previous = () => {
-    if (slide == 0) return false;
+    if (slide === 0) return false;
     setSlide(slide - 1);
   };
 

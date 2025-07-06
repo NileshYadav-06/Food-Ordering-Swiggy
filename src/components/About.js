@@ -1,13 +1,37 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../CSS/about.css'
 import photo from "../assets/Chef PNG - Free Download-Photoroom.png";
 import item1 from '../assets/Chinese Chow Mein Noodles Plate With Vegetables HD PNG - Image ID 489178 _ TopPNG-Photoroom.png'
 import item2 from '../assets/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.avif'
 import item3 from '../assets/download.jpeg'
 import { Link } from 'react-router-dom';
+import AboutusCard from './AboutUsCard';
 
 
 const About = () => {
+  const [aboutusCard, setAboutusCard ] = useState([]);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+  
+  const fetchData = async () => {
+    const nileshUrl = "https://api.github.com/users/NileshYadav-06";
+
+    const nileshPromise  = await fetch(nileshUrl);
+
+    const nileshData = await nileshPromise.json();
+
+    setAboutusCard([nileshData]);
+    console.log(aboutusCard);
+    
+  } 
+console.log("aboutusCard:", aboutusCard);
+console.log("type:", typeof aboutusCard);
+
+  console.log(aboutusCard.length);
+
+
   return <>
     <div className="mainContainer w-[100vw] flex   flex-wrap  ">
       
@@ -33,10 +57,22 @@ const About = () => {
 
       </div>
     </div>
+
+
+    <div>
+      <h1 className="about-developer-text ">Developer :- </h1>
+      <div className="about">
+        {
+            aboutusCard.map((data) => {
+                return <AboutusCard key={data.id} cardData={data} />
+            })
+        }
+      </div>  
+    </div>
   </>
 }
 
-export default About
+export default About;
 
 
 // border-2  border-solid border-violet-500

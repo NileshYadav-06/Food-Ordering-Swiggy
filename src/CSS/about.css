@@ -126,3 +126,121 @@ display: inline;
         width: 15rem;
     }
 }
+
+
+/*--------------- Aboutus Card page -------- */
+
+
+.about {
+   margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+   
+}
+
+
+.about-card {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    border: 4px solid rgb(52, 51, 51);
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: #FECB0F;
+    transition: transform 0.2s ease-in-out;
+}
+
+.about-card:hover {
+    transform: scale(1.03);
+}
+
+.profile-background-picture {
+    height: 30%;
+    overflow: hidden;
+    border-bottom: 4px solid rgb(52, 51, 51);
+}
+
+.profile-background-picture>img {
+    object-fit: cover;
+    height: 110%;
+    width: 140%;
+}
+
+.profile-picture {
+    border: 4px solid rgb(52, 51, 51);
+    top: 12%;
+    left: 6%;
+    position: absolute;
+    height: 30%;
+    width: 36%;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.profile-picture>img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-details {
+    height: 70%;
+    padding-top: 10%;
+  }
+
+
+
+
+
+/* all details ( texts ) of aboutus */
+
+.profile-details>p, .profile-details>a>p {
+    margin: 0;
+    padding: 0;
+    padding-left: 10%;
+    padding-bottom: 8px;
+}
+
+.aboutus-username {
+    margin-top: 6;
+    padding-left: 48%;
+    color: rgb(18, 14, 14);
+    left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aboutus-name {
+    color: rgb(249, 251, 255);
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.aboutus-email {
+    color: #e23333;
+}
+
+.aboutus-git {
+    color: rgb(64, 7, 235);
+    font-size: 18px;
+}
+
+.aboutus-bio-text {
+    color: white;
+}
+
+.aboutus-bio {
+    color: #110f10;
+}
+
+
+.about-developer-text {
+    color: #090802;
+    text-decoration: underline;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
