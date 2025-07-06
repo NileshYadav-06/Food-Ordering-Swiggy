@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import '../CSS/about.css'
-import photo from "../assets/Chef PNG - Free Download-Photoroom.png";
+import photo from "../assets/chef_PNG-Photoroom.png";
 import item1 from '../assets/Chinese Chow Mein Noodles Plate With Vegetables HD PNG - Image ID 489178 _ TopPNG-Photoroom.png'
 import item2 from '../assets/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.avif'
 import item3 from '../assets/download.jpeg'
 import { Link } from 'react-router-dom';
 import AboutusCard from './AboutUsCard';
+
 
 
 const About = () => {
@@ -45,7 +46,7 @@ console.log("type:", typeof aboutusCard);
 
       </div>
       <div className="aboutImg    flex  ">
-        <div className="shefimg mt-10   "><img src={photo} alt="img" className='   ' /></div>
+        <div className="shefimg mt-10   "><img className='bg-yellow-300 w-[70%]' src={photo} alt="img"  /></div>
 
         <div className="itemlist pt-5 pl-5 ">
           <img src={item1} alt="img"  />
@@ -60,7 +61,7 @@ console.log("type:", typeof aboutusCard);
 
 
     <div>
-      <h1 className="about-developer-text ">Developer :- </h1>
+      <h1 className="about-developer-text font-extrabold">Developer :- </h1>
       <div className="about">
         {
             aboutusCard.map((data) => {
