@@ -25,4 +25,4 @@ const CategoriesShimmer = () => {
   </>
 }
 
-export default CategoriesShimmer
+export default CategoriesShimmer;

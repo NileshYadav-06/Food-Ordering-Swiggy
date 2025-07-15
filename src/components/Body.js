@@ -25,7 +25,7 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      "https://proxy.cors.sh/https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9352403&lng=77.624532&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING",
+      "https://proxy.cors.sh/https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.57590&lng=77.33450&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING",
       {
         headers: {
           "x-cors-api-key": "temp_30ab0b2006237d8f81f9982b7db77f63",
@@ -65,16 +65,16 @@ const Body = () => {
         {resHead}
       </h1>
 
-      <div className="filter  gap-5 flex">
+      <div className="filter  gap-5 flex justify-evenly ">
         <div className="search bg-white flex border-2 border-solid border-[#FECB0F] rounded-xl">
           <input
-            className=" border-0 outline-none py-1 px-3 rounded-xl"
+            className=" border-0 outline-none py-2 px-3 rounded-xl"
             type="text"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
             }}
-            placeholder="Find your favourite"
+            placeholder="Find your delicious items"
           />
           <button
             className="bg-[#FECB0F] rounded-lg  cursor-pointer font-medium"
